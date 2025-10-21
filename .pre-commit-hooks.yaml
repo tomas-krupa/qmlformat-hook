@@ -4,5 +4,6 @@
   description: Check and format QML files using qmlformat.
   entry: qmlformat-hook
   language: python
+  files: '.*\.qml$'
   additional_dependencies:
-  - PySide6
+  - PySide6-Essentials

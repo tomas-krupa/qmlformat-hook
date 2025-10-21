@@ -11,9 +11,10 @@ The only standalone, multiplatform pre-commit hook for formatting QML files usin
      rev: 1.0.1
      hooks:
        - id: qmlformat
-         files: '.*\.qml$'
          #args: ["--check"]
    ```
+
+* By default, all `*.qml` files will be matched
 
 2. Install the pre-commit hooks:
 
