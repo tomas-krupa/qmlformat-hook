@@ -8,7 +8,7 @@ The only standalone, multiplatform pre-commit hook for formatting QML files usin
 
    ```yaml
    - repo: https://github.com/tomas-krupa/qmlformat-hook.git
-     rev: 1.0.1
+     rev: 1.1.0
      hooks:
        - id: qmlformat
          #args: ["--check"]
