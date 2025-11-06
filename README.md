@@ -8,12 +8,13 @@ The only standalone, multiplatform pre-commit hook for formatting QML files usin
 
    ```yaml
    - repo: https://github.com/tomas-krupa/qmlformat-hook.git
-     rev: 1.1.0
+     rev: 1.2.0
      hooks:
        - id: qmlformat
          #args: ["--check"]
+         #additional_dependencies:
+         #  - PySide6-Essentials==6.8.3 # override version of Qt Python metapackage
    ```
-
 * By default, all `*.qml` files will be matched
 
 2. Install the pre-commit hooks:
