@@ -6,4 +6,4 @@
   language: python
   files: '.*\.qml$'
   additional_dependencies:
-  - PySide6-Essentials==6.9.1
+  - PySide6-Essentials>=6.9.1
